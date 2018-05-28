@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 28
+  controlID: 51
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 29
+  controlID: 52
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 30
+  controlID: 53
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 622
     height: 490
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
@@ -202,8 +202,8 @@ MonoBehaviour:
     y: 0
     width: 615
     height: 490
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 98
+  controlID: 134
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -304,8 +304,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 767
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -444,14 +444,14 @@ MonoBehaviour:
     height: 469
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 1310.694671994439
+  lastFramingTime: 1059.378248506521
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.34776, y: 2.062337, z: -1.5127634}
+    m_Target: {x: 307.67822, y: 103.56799, z: 0}
     speed: 2
-    m_Value: {x: 14.34776, y: 2.062337, z: -1.5127634}
+    m_Value: {x: 307.67822, y: 103.56799, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -479,9 +479,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 15.665486
+    m_Target: 205.14365
     speed: 2
-    m_Value: 15.665486
+    m_Value: 205.14365
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -522,9 +522,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 882e0000
-    m_LastClickedID: 11912
-    m_ExpandedIDs: 14e6ffff4ef3ffff98fbffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 98fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -543,7 +543,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
   m_ExpandedScenes:
-  - LEVEL1W2L
+  - MainMenu
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -586,19 +586,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts rueda/Canvas
+    - Assets/Scripts/Scene
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts rueda/Canvas
+  - Assets/Scripts/Scene
   m_LastFoldersGridSize: 64
-  m_LastProjectPath: C:\Users\User\Desktop\cosas\Universidad\UNITYPRRO\Redes\proyecto
+  m_LastProjectPath: C:\Users\User\Desktop\cosas\Universidad\UNITYPRRO\Redes\LaCompa-iaRedes\proyecto
     redes
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 113}
-    m_SelectedIDs: a8280000
-    m_LastClickedID: 10408
+    m_SelectedIDs: 38280000
+    m_LastClickedID: 10296
     m_ExpandedIDs: 0000000084270000a22700003028000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ca240000a23900000425000024250000d2260000a4250000b0cbffffea24000026590000163000006c25000098250000648e0000ea46fdff88250000bc2500002049ffff4c27000050270000d8b2feff162500003c2500009264000054c7ffff002600002831000028260000b4260000702700005e280000f2270000021ffcff124ffdffac260000522c0000162b0000364d0000002b0000163100009027000002280000dc2a0000d42600002629000084290000022700005c27000020edfbffbe280000e6280000322a0000fa3200007e28000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

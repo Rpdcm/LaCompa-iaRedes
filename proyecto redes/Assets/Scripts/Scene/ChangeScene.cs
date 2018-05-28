@@ -100,4 +100,8 @@ public class ChangeScene : MonoBehaviour
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    public void quitApp()
+    {
+        Application.Quit();
+    }
 }

@@ -4,8 +4,16 @@ Assets/Scene/MainMenu.unity
 Assets/Dialogue Test.unity
 Assets/Scene/LevelSelection.unity
 Assets/Scene/LEVEL1W1L.unity
-Assets/Scene/LEVEL2W1L.unity
+Assets/Scene/LEVEL3W1L.unity
 Assets/Scene prueba.unity
+Assets/LEVEL1W2L.unity
+Assets/LEVEL2W2L.unity
+Assets/LEVEL3W2L.unity
+Assets/LEVEL4W2L.unity
+Assets/LEVEL5W2L.unity
+Assets/Scene/LEVEL2W1L.unity
+Assets/Scene/LEVEL4W1L.unity
+Assets/Scene/LEVEL5W1L.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -19,7 +27,8 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-e7e559b7dc59fbcd544511d290af8f67 Assembly-CSharp.dll:.LevelOfEvaluation
+af1d1c32e5102da0bf1c3f856e28c653 Assembly-CSharp.dll:.LevelOfEvaluation
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ControlLoadLevels
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -52,6 +61,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+b7d30c182bd3678bfc4cb1c2cdda1e6f Assembly-CSharp.dll:.UnlockedLevelsCounter
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -112,7 +122,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-7691f18a118a5770990b33bc13f54d88 Assembly-CSharp.dll:.LinkData
+1a1bd2c3429d3ea3683b327ed459c905 Assembly-CSharp.dll:.LinkData
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -145,16 +155,17 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 2028d3dce5fbf66cd2cedd2d77691e0e Assembly-CSharp.dll:.ClearPanel
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
-8205b00e559758b64a5c8eea0317c517 Assembly-CSharp.dll:.TextManager
+e1113deaeca5cb24330ca4b8eadd7319 Assembly-CSharp.dll:.TextManager
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NextScene
+3c118bfb02687716613385510b301d50 Assembly-CSharp.dll:.NextScene
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Link
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelManager
-668dfc3e020099596afbe33fb034da70 Assembly-CSharp.dll:.DialogManager
-b557912ffbf9b7b610e60158cad71200 Assembly-CSharp.dll:.ChangeScene
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AppearHelp
+1a5cfcaa62f7be73dbaa5625e25b7950 Assembly-CSharp.dll:.DialogManager
+b557912ffbf9b7b610e60158cad71200 Assembly-CSharp.dll:.ChangeScene
+a91215d8effcdaa96fb0bc2b22998feb Assembly-CSharp.dll:.ControlUnlokingLevel

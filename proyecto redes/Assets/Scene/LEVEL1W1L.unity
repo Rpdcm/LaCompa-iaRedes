@@ -397,6 +397,11 @@ Prefab:
       propertyPath: _Router_Router
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114488632603363468, guid: 96d53620b5896bf4ab27b4c3087dae76,
+        type: 2}
+      propertyPath: Level
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 96d53620b5896bf4ab27b4c3087dae76, type: 2}
   m_IsPrefabParent: 0
